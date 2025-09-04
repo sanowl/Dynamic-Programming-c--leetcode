@@ -3,7 +3,6 @@ public:
     MedianFinder() {
         
     }
-    
     void addNum(int num) {
         if (maxHeap.empty() || num <= maxHeap.top()) {
             maxHeap.push(num);
